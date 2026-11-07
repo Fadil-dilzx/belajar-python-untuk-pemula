@@ -57,3 +57,30 @@ for i in range(1, 6):
     if i == 5:
         break     # hentikan loop saat i == 5
     print(i)
+
+##Lists dan Dictionaries##
+# Membuat list
+buah = ["apel", "jeruk", "mangga"]
+
+# Akses elemen
+print(buah[0])   # apel
+
+# Menambah elemen
+buah.append("pisang")
+
+# Mengubah elemen
+buah[1] = "anggur"
+
+# Menghapus elemen
+buah.remove("mangga")
+
+print(buah)
+
+# Membuat dictionary sederhana
+mahasiswa = {
+    "nama": "Budi",
+    "umur": 20,
+    "jurusan": "Informatika"
+}
+
+print(mahasiswa)
