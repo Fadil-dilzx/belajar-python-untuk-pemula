@@ -32,3 +32,19 @@ buah = ["apel", "jeruk", "mangga"]
 
 print("apel" in buah)      # True
 print("pisang" not in buah) # True
+
+##Kondisi If Else pada Python##
+nilai = 85
+
+if nilai >= 90:
+    print("A")
+elif nilai >= 75:
+    print("B")
+else:
+    print("C")
+# Output: B
+count = 0
+
+while count < 5:
+    print("Hitung:", count)
+    count += 1
