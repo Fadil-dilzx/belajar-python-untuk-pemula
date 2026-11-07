@@ -103,3 +103,36 @@ def tambah(a, b):
 
 hasil = tambah(5, 7)
 print("Hasil penjumlahan:", hasil)
+
+##Class dan Object##
+# Membuat class
+class Mahasiswa:
+    def __init__(self, nama, jurusan):
+        self.nama = nama
+        self.jurusan = jurusan
+
+    def sapa(self):
+        print(f"Halo, nama saya {self.nama} dari jurusan {self.jurusan}")
+
+# Membuat object dari class
+mhs1 = Mahasiswa("Fadil", "Informatika")
+mhs2 = Mahasiswa("F", "RPL")
+
+# Memanggil method
+mhs1.sapa()
+mhs2.sapa()
+
+class PersegiPanjang:
+    def __init__(self, panjang, lebar):
+        self.panjang = panjang
+        self.lebar = lebar
+
+    def luas(self):
+        return self.panjang * self.lebar
+
+    def keliling(self):
+        return 2 * (self.panjang + self.lebar)
+
+pp = PersegiPanjang(5, 3)
+print("Luas:", pp.luas())
+print("Keliling:", pp.keliling())
