@@ -84,3 +84,22 @@ mahasiswa = {
 }
 
 print(mahasiswa)
+
+##Functions##
+def sapa():
+    print("Halo, selamat datang di Python!")
+
+# Memanggil function
+sapa()
+
+def sapa_nama(nama):
+    print(f"Halo {nama}, semoga harimu menyenangkan!")
+
+sapa_nama("Budi")
+sapa_nama("Siti")
+
+def tambah(a, b):
+    return a + b
+
+hasil = tambah(5, 7)
+print("Hasil penjumlahan:", hasil)
